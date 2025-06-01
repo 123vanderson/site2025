@@ -92,6 +92,8 @@ nav a {
   padding: 30px;
   flex-wrap: wrap;
   background-color: white;
+
+ 
   
 }
 .cards article {
@@ -116,9 +118,12 @@ nav a {
   padding: 15px;
   border-radius: 10px;
   text-align: center;
-  max-width: 200px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+  
 }
+
+
 
 .cards img {
   width: 100%;
@@ -149,6 +154,13 @@ nav a {
   margin-top: 10px;
   color: #333;
 }
+header img {
+
+   width: 80px;
+  height: auto;
+  padding: 5px;
+
+}
 
 
 
@@ -156,10 +168,31 @@ nav a {
 footer {
   background-color: #005440;
   color: white;
-  text-align: center;
+ text-align: center;
   padding: 20px;
   margin-top: 20px;
+  
 }
+footer ul {
+
+ list-style: none;
+}
+footer a {
+
+  color: white;
+}
+
+button{
+
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+ a:hover{
+
+ }
 
 
 @media (max-width: 768px) {
@@ -173,7 +206,12 @@ footer {
     align-items: center;
   }
 }
-
-
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+    
+  }
+}
 
 
